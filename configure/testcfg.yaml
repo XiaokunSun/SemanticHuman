@@ -1,0 +1,27 @@
+MODEL:
+  model_name: 'expDFAUST_zeroroot_multiz8partkps8_relatloss_thres08_interpdata_volloss_4bs_v2'
+  ds_factors: [2, 2, 2, 2]
+  step_sizes: [2, 2, 1, 1, 1]
+  filter_sizes_enc: [[3, 16, 32, 64, 128],[[],[],[],[],[]]]
+  filter_sizes_dec: [[128, 64, 32, 32, 16],[[],[],[],[],3]]
+  dilation: [2, 2, 1, 1, 1]
+  part_shape_latent_size: 8
+  part_kps_latent_size: 8
+  nz: 256
+TRAIN:
+  n_epochs: 300
+  Val_num: 0
+  dataset: 'exp_DFAUST'
+  batchsize_train: 4
+  batchsize_interp: 4
+  batchsize_test: 8
+  normal_flag: 'zeroroot' # 
+  model_type: 'multiz+partkps' # multiz+partkps+kps neural3DMM
+  skl_mode: 'vec_m' # 'm' 'ori_m' 'vec' 'kps_ori_m' 'vec_m'
+  device_idx: 0
+  num_workers: 4
+  resume: [True, '/home/sxk/16T/SemanticHuman/exp_DFAUST/results/multiz+partkps/expDFAUST_zeroroot_multiz8partkps8_relatloss_thres08_interpdata_volloss_4bs_v2/checkpoints/checkpoint300.pth.tar', True]
+
+CONSTANTS:
+  newskl_list: [[0,1],[0,2],[0,6],[1,4],[2,5],[6,9],[4,7],[5,8],[9,12],[9,16],[9,17],[7,10],[8,11],[12,15],[16,18],[17,19],[18,20],[19,21],[20,22],[21,23],[20,24],[21,25],[20,26],[21,27],[15,28],[15,29],[15,30],[7,31],[8,32],[7,33],[8,34]]
+  kps_index_list: [[12,25,26,27],[12,11],[11,8],[5,0],[0,1,2],[1,3],[3,6],[6,9,28,30],[2,4],[4,7],[7,10,29,31],[13,15],[15,17],[17,19,21,23],[14,16],[16,18],[18,20,22,24]]
