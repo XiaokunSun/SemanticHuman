@@ -1,10 +1,10 @@
 # Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing  
 Xiaokun Sun, Qiao Feng, Xiongzheng Li, Jinsong Zhang, Yu-Kun Lai, Jingyu Yang, Kun Li. "Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing". In Proc. CVPR, 2023.  
-[Project Page](http://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman/index.html) | [Paper]() 
+[Project Page](http://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman) | [Paper]() 
 
 ## Overview
 <p align="center">
-<img src=img.png />
+<img src=img.jpg />
 </p>
 
 ## Abstract
@@ -37,15 +37,19 @@ torch_spline_conv (1.2.1)
 
 You need to download the assets files, unzip them and put them into the `root/asset` directory.
 
-[Download: assets]()
+[Download: assets](https://pan.baidu.com/s/1IDPlUgyAPRkfMVVt_w2R8Q?pwd=dxvl)
 
 ## Preprocessed Data and Pretrain Model
 
 You need to download the preprocessed data and pretrain model, unzip them and put them into the `root/DFAUST` directory.
 
-[Download: preprocessed DFAUST dataset and pretrained model]()
+[Download: preprocessed DFAUST dataset and pretrained model](https://pan.baidu.com/s/1uRjvLSCtWLwr6AZbhbqh5w?pwd=5fa9)
 
 ## Usage
+
+### Configure
+Update `cfg.PATH.root_dir` in the `root/configure/cfgs.py` file.  
+Update `cfg.TRAIN.resume` in the `root/configure/testcfg.yaml` file.
 
 ### Data preprocessing 
 The downloaded preprocessed data can be trained directly.  
