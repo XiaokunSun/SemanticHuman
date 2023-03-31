@@ -1,6 +1,9 @@
 # Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing  
 Xiaokun Sun, Qiao Feng, Xiongzheng Li, Jinsong Zhang, Yu-Kun Lai, Jingyu Yang, Kun Li. "Learning Semantic-Aware Disentangled Representation for Flexible 3D Human Body Editing". In Proc. CVPR, 2023.  
-[Project Page](http://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman) | [Paper]() 
+[Project Page](http://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman) | [Paper](http://cic.tju.edu.cn/faculty/likun/projects/SemanticHuman) 
+
+**News**
+* `2023/3/31` The code of version 1.0 has been released, welcome to ask me questions!
 
 ## Overview
 <p align="center">
