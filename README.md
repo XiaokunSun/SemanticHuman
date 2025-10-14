@@ -29,7 +29,7 @@ scipy (1.7.3)
 trimesh (3.14.0)
 tqdm (4.64.0)
 yacs (0.1.8)
-[torch-geometric](https://github.com/MPI-IS/mesh) (2.1.0 need to be installed manually)
+[torch-geometric](https://github.com/pyg-team/pytorch_geometric) (2.1.0 need to be installed manually)
 torch-cluster (1.5.9)
 torch_scatter (2.0.9)
 torch_sparse (0.6.12)
@@ -40,13 +40,13 @@ torch_spline_conv (1.2.1)
 
 You need to download the assets files, unzip them and put them into the `root/asset` directory.
 
-[Download: assets](https://pan.baidu.com/s/1IDPlUgyAPRkfMVVt_w2R8Q?pwd=dxvl)
+[Download: assets](https://drive.google.com/drive/folders/1axL3MLjAYpmUIJrHnhqHxyH20dUsYQ5A?usp=sharing)
 
 ## Preprocessed Data and Pretrain Model
 
 You need to download the preprocessed data and pretrain model, unzip them and put them into the `root/DFAUST` directory.
 
-[Download: preprocessed DFAUST dataset and pretrained model](https://pan.baidu.com/s/1uRjvLSCtWLwr6AZbhbqh5w?pwd=5fa9)
+[Download: preprocessed DFAUST dataset and pretrained model](https://drive.google.com/drive/folders/1X0DuvpSNh-v1JimU53dXb78BRJHNAnOd?usp=sharing)
 
 ## Usage
 
