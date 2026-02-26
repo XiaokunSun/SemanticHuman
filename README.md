@@ -79,7 +79,7 @@ $ python demo.py
 Part of our code is based on [Neural3DMM](https://github.com/gbouritsas/Neural3DMM). Many thanks! 
 
 ## Citation
-If you find this code useful for your research, please use the following BibTeX entry.
+If you find our work helpful for your research, please consider starring this repository ⭐ and citing our work:
 ```
 @inproceedings{SemanticHuman,
   author={Xiaokun Sun, Qiao Feng, Xiongzheng Li, Jinsong Zhang, Yu-Kun Lai, Jingyu Yang, Kun Li},
